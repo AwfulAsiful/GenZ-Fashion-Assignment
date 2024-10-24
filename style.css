@@ -6,6 +6,7 @@
     --gold:#FABE4C;
     --lime-green:#A4BC46;
     --bg-color:#FFFBF0;
+    --card-img-bg:#F1F1F1;
 }
 .bebas{
     font-family: "Bebas Neue", serif;
@@ -18,5 +19,11 @@
 }
 .btn-color{
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
+.card-shadow{
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.card{
+    border:2px solid salmon;
 }
 
