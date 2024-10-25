@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header class="bg-[var(--bg-color)] montserrat pt-[27px] px-[20px] md:px-[100px] md:pb-[100px]">
+<body class="max-w-[90rem] mx-auto">
+    <header
+        class="bg-[var(--bg-color)] montserrat pt-[27px] px-[20px] md:px-[100px] md:pb-[100px] lg:px-[10rem] object-cover">
 
         <!-- Navbar starts -->
         <nav class="flex flex-row justify-between items-center">
@@ -62,75 +63,69 @@
 
         <!-- Jacket Cards Starts -->
 
-        <div class="card-container">
-            <div class="card-container text-left flex flex-col items-center md:flex-row gap-4 md:gap-6">
-                <!-- Card-1 starts -->
-                <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
-                    <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
-                        <img src="images/jacket-1.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-txt mt-4">
-                        <h2 class="text-navy text-xl font-bold">Yellow Coat Jacket</h2>
-                        <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <div class="card-footer mt-4 flex justify-between items-center">
-                            <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
-                                <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
-                                BUY NOW
-                            </button>
-                        </div>
+        <div class="card-container text-left flex flex-col items-center lg:flex-row gap-4 md:gap-6">
+            <!-- Card-1 starts -->
+            <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
+                <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
+                    <img src="images/jacket-1.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
+                </div>
+                <div class="card-txt mt-4">
+                    <h2 class="text-navy text-xl font-bold">Yellow Coat Jacket</h2>
+                    <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <div class="card-footer mt-4 flex justify-between items-center">
+                        <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
+                        <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
+                            BUY NOW
+                        </button>
                     </div>
                 </div>
-                <!-- Card-1 Ends -->
-
-                <!-- Card-2 starts -->
-                <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
-                    <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
-                        <img src="images/jacket-2.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-txt mt-4">
-                        <h2 class="text-navy text-xl font-bold">Ladies Jacket</h2>
-                        <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <div class="card-footer mt-4 flex justify-between items-center">
-                            <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
-                                <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
-                                BUY NOW
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card-2 Ends -->
-
-                <!-- Card-3 starts -->
-                <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
-                    <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
-                        <img src="images/jacket-3.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-txt mt-4">
-                        <h2 class="text-navy text-xl font-bold">Woman Leather Jacket</h2>
-                        <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <div class="card-footer mt-4 flex justify-between items-center">
-                            <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
-                                <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
-                                BUY NOW
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card-3 Ends -->
-
             </div>
+            <!-- Card-1 Ends -->
+
+            <!-- Card-2 starts -->
+            <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
+                <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
+                    <img src="images/jacket-2.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
+                </div>
+                <div class="card-txt mt-4">
+                    <h2 class="text-navy text-xl font-bold">Ladies Jacket</h2>
+                    <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <div class="card-footer mt-4 flex justify-between items-center">
+                        <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
+                        <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card-2 Ends -->
+
+            <!-- Card-3 starts -->
+            <div class="card card-shadow rounded-[20px] p-[18px] shadow-lg w-full max-w-sm md:max-w-md">
+                <div class="card-img bg-[var(--card-img-bg)] rounded-[20px] px-[50px] py-[27px]">
+                    <img src="images/jacket-3.png" alt="Yellow Coat Jacket" class="w-full h-full object-cover">
+                </div>
+                <div class="card-txt mt-4">
+                    <h2 class="text-navy text-xl font-bold">Woman Leather Jacket</h2>
+                    <p class="text-[var(--gray)] mt-2 text-sm md:text-base leading-6">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <div class="card-footer mt-4 flex justify-between items-center">
+                        <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
+                        <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card-3 Ends -->
 
         </div>
         <!-- Jacket Cards Ends-->
@@ -158,8 +153,7 @@
                         </p>
                         <div class="card-footer mt-4 flex justify-between items-center">
                             <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
                                 <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
                                 BUY NOW
                             </button>
@@ -180,8 +174,7 @@
                         </p>
                         <div class="card-footer mt-4 flex justify-between items-center">
                             <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
                                 <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
                                 BUY NOW
                             </button>
@@ -202,8 +195,7 @@
                         </p>
                         <div class="card-footer mt-4 flex justify-between items-center">
                             <h3 class="text-[var(--gold)] text-[36px] font-extrabold">$234</h3>
-                            <button
-                                class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
+                            <button class="flex items-center btn-color text-white py-2 px-4 rounded-lg">
                                 <img src="icons/shopping-cart 1.png" alt="Shopping Cart" class="h-5 w-5 mr-2" />
                                 BUY NOW
                             </button>
@@ -219,6 +211,59 @@
 
     </section>
     <!-- Mens Jacket Section Ends -->
+
+
+    <section class="extra-section mt-[5rem] px-[4rem] lg:flex flex-row-reverse items-center gap-x-[5rem]">
+        <div class="extra-img">
+            <img src="images/shopping.png" alt="" >
+        </div>
+        <div class="extra-cards roboto w-full">
+            <div class="card-container mt-[3rem]">
+                <!-- Card-1 starts -->
+                <div class="card card-shadow flex flex-col items-center rounded-[1.25rem] mb-[1.5rem] py-[1.5rem] lg:flex-row gap-x-[4rem] lg:px-[0.5rem]">
+                    <div class="card-img">
+                        <img src="icons/house.png" alt="" class="max-w-[5rem] h-auto">
+                    </div>
+                    <div class="card-txt text-center lg:text-left">
+                        <h2 class="text-[var(--navy-blue)] text-[1.5rem] font-bold">Find the Perfect Fit</h2>
+                        <p class="text-[var(--gray)] leading-7">Everybody is different, which is why we
+                            <br>offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card-1 Ends -->
+                <!-- Card-2 starts -->
+                <div class="card card-shadow flex flex-col items-center rounded-[1.25rem] mb-[1.5rem] py-[1.5rem] lg:flex-row gap-x-[4rem] lg:px-[0.5rem]">
+                    <div class="card-img">
+                        <img src="icons/box.png" alt="" class="max-w-[5rem] h-auto">
+                    </div>
+                    <div class="card-txt text-center lg:text-left">
+                        <h2 class="text-[var(--navy-blue)] text-[1.5rem] font-bold">Free Exchanges</h2>
+                        <p class="text-[var(--gray)] leading-7">One of the many reasons you can shop
+                          <br>  with peace of mind.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card-2 Ends -->
+
+                <!-- Card-3 starts -->
+                <div class="card card-shadow flex flex-col items-center rounded-[1.25rem] mb-[1.5rem] py-[1.5rem] lg:flex-row gap-x-[4rem] lg:px-[0.5rem]">
+                    <div class="card-img">
+                        <img src="icons/question.png" alt="" class="max-w-[5rem] h-auto">
+                    </div>
+                    <div class="card-txt text-center lg:text-left">
+                        <h2 class="text-[var(--navy-blue)] text-[1.5rem] font-bold">Contact Our Seller</h2>
+                        <p class="text-[var(--gray)] leading-7">They are here to help you. That's quite <br>
+                            literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card-3 Ends -->
+
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
